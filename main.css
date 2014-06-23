@@ -1,0 +1,237 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Reset 
+====================== */
+body {
+	font-family: 'Josefin Sans', 'Gill Sans', Helvetica, Arial, sans-serif;
+}
+#wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+	color: #7F4F92;
+}
+img {
+	max-height: 100%;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: 700;
+}
+p {
+	font-weight: 400;
+}
+
+/* Typographic Scale
+====================== */
+h1 {
+	font-size: 4.5em;
+}
+h2 {
+	font-size: 3em;
+}
+h3 {
+	font-size: 2.25em;
+}
+h4 {
+	font-size: 1.75em;
+}
+h5 {
+	font-size: 1em;
+}
+p {
+	font-size: 1.5em;
+}
+.introtxt p {
+	font-size: 2.25em;
+}
+
+/* Header
+====================== */
+header {
+	text-align: center;
+	margin-bottom: 2em;
+	-webkit-box-shadow: 0px 15px 15px -15px #ccc;
+	-moz-box-shadow: 0px 15px 15px -15px #ccc;
+	box-shadow: 0px 15px 15px -15px #ccc;
+}
+header h1 {
+	padding: .25em;
+}
+header h1 span {
+	font-family: 'Dancing Script', sans-serif;
+}
+header h4 {
+	padding: .25em 0;
+}
+
+/* Intro Section
+====================== */
+#intro {
+	overflow: hidden;
+	background: #B2D493;
+}
+.introtxt,
+#intro img {
+	width: 50%;
+	float: left;
+}
+.introtxt p {
+	padding: 1.5em .8em;
+	line-height: 1.4;
+	font-size: 2.5em;
+}
+/* Community Paths Section
+============================= */
+#com_paths {
+	padding-top: 3.5em;
+}
+#com_paths h3 {
+	text-transform: uppercase;
+	border-bottom: 2px solid #333;
+}
+#com_paths h5 {
+	margin-top: .25em;
+}
+#pathlists {
+	line-height: 1.3;
+	padding-top: 3em;
+	padding-bottom: 4em;
+}
+#pathlists p {
+	margin-top: 12px;
+}
+#pathlists h4 {
+	border-top: 1px solid #ccc;
+	padding-top: .25em;
+}
+#pathlists ul {
+	font-size: 1.5em;
+	margin-top: .25em;
+}
+.txtbox,
+#west,
+#northwest,
+#north,
+#southwest,
+#east {
+	width: 30.66666667%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 2%;
+}
+.txtbox {
+	vertical-align: bottom;
+}
+#west,
+#northwest,
+#southwest,
+#east {
+	margin-left: -5px;
+}
+#north,
+#southwest,
+#east {
+	padding-top: 4em;
+}
+.txtbox p+p {
+	margin-top: .5em;
+}
+/* Footer
+============================= */
+footer {
+	background: #B2D493;
+}
+footer div {
+	width: 90%;
+	margin: 0 auto;
+}
+#friends {
+	padding-top: 2em;
+}
+#friends p {
+	margin-top: .25em;
+}
+footer a {
+	font-size: 1.5em;
+	color: #5B3985;
+}
+footer p {
+	font-size: 1.125em;
+}
+#devcompany {
+	margin-top: 1em;
+	padding-bottom: 1em;
+}
+#devcompany,
+#devcompany a {
+	font-size: 1em;
+}
+#devcompany span {
+	margin-left: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
